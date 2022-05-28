@@ -22,16 +22,19 @@ If you installed Aegisub in `C:\Program Files (x86)\Aegisub` then:
   `C:\Program Files (x86)\Aegisub\automation\autoload`.
 
 ### Mac
-(Thanks to @NeSubs and @ilovedaehwi for assisting this in issue #1)
+Thanks to [@NeSubs](https://github.com/NeSubs) and
+[@ilovedaehwi](https://github.com/ilovedaehwi) for assisting this in issue
+[#1](https://github.com/mnh48/Aegisub-DiscordRPC/issues/1)
 - Place the binary file `libdiscord-rpc.dylib` in `/usr/local/lib`.
   - If the directory `/usr/local/lib` does not exist, create it.
 - Place the script `discord-rpc.lua` into the `automation/autoload` directory
   where you had installed Aegisub in.
 
 ### Linux (not tested)
-(While I use Linux alongside Windows, I don't have Aegisub compiled/installed
+While I use Linux alongside Windows, I don't have Aegisub compiled/installed
 natively where this would apply, so I can't test it. When running Aegisub on
-Linux using WINE, the instruction for Windows should be used instead of this)
+Linux using WINE, the instruction for Windows should be used instead of this.
+If anyone can test it, please open an issue.
 - Place the binary file `libdiscord-rpc.so` in `/usr/local/lib`.
   - If the directory `/usr/local/lib` does not exist, create it.
 - Place the script `discord-rpc.lua` into the `automation/autoload` directory
@@ -103,7 +106,7 @@ Their binaries and source code are licensed under MIT.
 
 ## License
 - This project is released under
-  [The MIT License](./LICENSE.txt "Read full license text").
+  [The MIT License](./LICENSE "Read full license text").
 - This project incorporated codes from
   [lua-discordRPC](https://github.com/pfirsich/lua-discordRPC) which is released
   under [The MIT License](./LICENSE.lua-discordRPC.txt "Read full license text").

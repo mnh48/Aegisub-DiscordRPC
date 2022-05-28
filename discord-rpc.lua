@@ -1,8 +1,8 @@
 -- Discord RPC
 -- Outputs current editing session to Discord Rich Presence
 --
--- This file is written by muhdnurhidayat
--- Latest release and details at https://github.com/MuhdNurHidayat/Aegisub-DiscordRPC
+-- This file is written by mnh48
+-- Latest release and details at https://github.com/mnh48/Aegisub-DiscordRPC
 -- This file is licensed under MIT
 --
 -- This file uses some code from https://github.com/pfirsich/lua-discordRPC
@@ -15,8 +15,8 @@ local appId = "592657785368477728"
 
 script_name = "Discord RPC"
 script_description = "Outputs Aegisub editing to Discord Rich Presence"
-script_author = "muhdnurhidayat"
-script_version = "1"
+script_author = "mnh48"
+script_version = "2"
 
 ffi.cdef[[
 typedef struct DiscordRichPresence {
